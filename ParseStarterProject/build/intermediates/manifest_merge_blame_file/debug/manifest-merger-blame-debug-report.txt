@@ -1,0 +1,327 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.parse.starter"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml:5:5-67
+11-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml:6:5-79
+12-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml:7:5-80
+13-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml:7:22-77
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml:8:5-79
+14-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml:8:22-76
+15
+16    <!-- Optional permission for Analytics to run. -->
+17    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Permissions required for GCM -->
+17-->[com.google.android.gms:play-services-analytics:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\d184eaa0e95edba8230410a573e5d286\play-services-analytics-9.4.0\AndroidManifest.xml:25:5-67
+17-->[com.google.android.gms:play-services-analytics:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\d184eaa0e95edba8230410a573e5d286\play-services-analytics-9.4.0\AndroidManifest.xml:25:22-65
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.android.gms:play-services-gcm:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\7487109478a72269cd91e8adf0de08a5\play-services-gcm-9.4.0\AndroidManifest.xml:21:5-82
+18-->[com.google.android.gms:play-services-gcm:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\7487109478a72269cd91e8adf0de08a5\play-services-gcm-9.4.0\AndroidManifest.xml:21:22-79
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\fdb7cd1eca2ee3baac1eb3458856b8cf\play-services-maps-9.4.0\AndroidManifest.xml:22:5-24:33
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\fdb7cd1eca2ee3baac1eb3458856b8cf\play-services-maps-9.4.0\AndroidManifest.xml:23:8-40
+22        android:required="true" />
+22-->[com.google.android.gms:play-services-maps:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\fdb7cd1eca2ee3baac1eb3458856b8cf\play-services-maps-9.4.0\AndroidManifest.xml:24:8-31
+23
+24    <permission
+24-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\010d668b4fbc28c04586765c0eacbbc9\firebase-iid-9.4.0\AndroidManifest.xml:25:5-26:47
+25        android:name="com.parse.starter.permission.C2D_MESSAGE"
+25-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\010d668b4fbc28c04586765c0eacbbc9\firebase-iid-9.4.0\AndroidManifest.xml:25:17-71
+26        android:protectionLevel="signature" />
+26-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\010d668b4fbc28c04586765c0eacbbc9\firebase-iid-9.4.0\AndroidManifest.xml:26:9-44
+27
+28    <uses-permission android:name="com.parse.starter.permission.C2D_MESSAGE" />
+28-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\010d668b4fbc28c04586765c0eacbbc9\firebase-iid-9.4.0\AndroidManifest.xml:28:5-79
+28-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\010d668b4fbc28c04586765c0eacbbc9\firebase-iid-9.4.0\AndroidManifest.xml:28:22-76
+29
+30    <application
+30-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml:10:5-27:19
+31        android:name="com.parse.starter.StarterApplication"
+31-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml:11:9-43
+32        android:allowBackup="true"
+32-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml:12:9-35
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml:13:9-43
+35        android:label="@string/app_name"
+35-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml:14:9-41
+36        android:theme="@style/AppTheme" >
+36-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml:15:9-40
+37        <activity android:name="com.parse.starter.userFeedActivity" />
+37-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml:16:9-63
+37-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml:16:19-51
+38        <activity android:name="com.parse.starter.userActivity" />
+38-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml:17:9-50
+38-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml:17:19-47
+39        <activity
+39-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml:18:9-26:20
+40            android:name="com.parse.starter.MainActivity"
+40-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml:19:13-41
+41            android:label="@string/app_name" >
+41-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml:20:13-45
+42            <intent-filter>
+42-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml:21:13-25:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml:22:17-69
+43-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml:22:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml:24:17-77
+45-->D:\Gurpartap Imp\ANDROID STUDIO\Android Studio Projects\instagram\ParseStarterProject\src\main\AndroidManifest.xml:24:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <meta-data
+49-->[com.android.support:design:26.0.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\d4f90a2acffaa8e2ec3a7f9a474e6da7\design-26.0.0\AndroidManifest.xml:26:9-28:38
+50            android:name="android.support.VERSION"
+50-->[com.android.support:design:26.0.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\d4f90a2acffaa8e2ec3a7f9a474e6da7\design-26.0.0\AndroidManifest.xml:27:13-51
+51            android:value="26.0.0" />
+51-->[com.android.support:design:26.0.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\d4f90a2acffaa8e2ec3a7f9a474e6da7\design-26.0.0\AndroidManifest.xml:28:13-35
+52
+53        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
+53-->[com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\eb84e8ba5c07848d46397593517d34aa\play-services-cast-framework-9.4.0\AndroidManifest.xml:6:9-100
+53-->[com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\eb84e8ba5c07848d46397593517d34aa\play-services-cast-framework-9.4.0\AndroidManifest.xml:6:19-97
+54
+55        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
+55-->[com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\eb84e8ba5c07848d46397593517d34aa\play-services-cast-framework-9.4.0\AndroidManifest.xml:7:9-104
+55-->[com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\eb84e8ba5c07848d46397593517d34aa\play-services-cast-framework-9.4.0\AndroidManifest.xml:7:18-101
+56        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+56-->[com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\eb84e8ba5c07848d46397593517d34aa\play-services-cast-framework-9.4.0\AndroidManifest.xml:8:9-92
+56-->[com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\eb84e8ba5c07848d46397593517d34aa\play-services-cast-framework-9.4.0\AndroidManifest.xml:8:18-90
+57        <activity
+57-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\638dfefeaa322714f10703919952639e\play-services-ads-lite-9.4.0\AndroidManifest.xml:26:9-29:64
+58            android:name="com.google.android.gms.ads.AdActivity"
+58-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\638dfefeaa322714f10703919952639e\play-services-ads-lite-9.4.0\AndroidManifest.xml:27:13-65
+59            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+59-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\638dfefeaa322714f10703919952639e\play-services-ads-lite-9.4.0\AndroidManifest.xml:28:13-122
+60            android:theme="@android:style/Theme.Translucent" />
+60-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\638dfefeaa322714f10703919952639e\play-services-ads-lite-9.4.0\AndroidManifest.xml:29:13-61
+61        <activity
+61-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\638dfefeaa322714f10703919952639e\play-services-ads-lite-9.4.0\AndroidManifest.xml:30:9-31:52
+62            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+62-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\638dfefeaa322714f10703919952639e\play-services-ads-lite-9.4.0\AndroidManifest.xml:30:19-91
+63            android:theme="@style/Theme.IAPTheme" />
+63-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\638dfefeaa322714f10703919952639e\play-services-ads-lite-9.4.0\AndroidManifest.xml:31:13-50
+64        <activity
+64-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\e7d4ac177044d1d8772299f8685bba69\play-services-appinvite-9.4.0\AndroidManifest.xml:21:9-29:20
+65            android:name="com.google.android.gms.appinvite.PreviewActivity"
+65-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\e7d4ac177044d1d8772299f8685bba69\play-services-appinvite-9.4.0\AndroidManifest.xml:22:17-48
+66            android:exported="true"
+66-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\e7d4ac177044d1d8772299f8685bba69\play-services-appinvite-9.4.0\AndroidManifest.xml:23:17-40
+67            android:theme="@style/Theme.AppInvite.Preview" >
+67-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\e7d4ac177044d1d8772299f8685bba69\play-services-appinvite-9.4.0\AndroidManifest.xml:24:17-63
+68            <intent-filter>
+68-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\e7d4ac177044d1d8772299f8685bba69\play-services-appinvite-9.4.0\AndroidManifest.xml:25:13-28:29
+69                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+69-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\e7d4ac177044d1d8772299f8685bba69\play-services-appinvite-9.4.0\AndroidManifest.xml:26:17-89
+69-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\e7d4ac177044d1d8772299f8685bba69\play-services-appinvite-9.4.0\AndroidManifest.xml:26:25-87
+70
+71                <category android:name="android.intent.category.DEFAULT" />
+71-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\e7d4ac177044d1d8772299f8685bba69\play-services-appinvite-9.4.0\AndroidManifest.xml:27:17-75
+71-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\e7d4ac177044d1d8772299f8685bba69\play-services-appinvite-9.4.0\AndroidManifest.xml:27:27-73
+72            </intent-filter>
+73        </activity>
+74        <activity
+74-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\1195bebda59a0e622d6b09c9b35d3266\play-services-auth-9.4.0\AndroidManifest.xml:21:9-24:46
+75            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+75-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\1195bebda59a0e622d6b09c9b35d3266\play-services-auth-9.4.0\AndroidManifest.xml:21:19-68
+76            android:excludeFromRecents="true"
+76-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\1195bebda59a0e622d6b09c9b35d3266\play-services-auth-9.4.0\AndroidManifest.xml:23:19-52
+77            android:exported="false"
+77-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\1195bebda59a0e622d6b09c9b35d3266\play-services-auth-9.4.0\AndroidManifest.xml:24:19-43
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+78-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\1195bebda59a0e622d6b09c9b35d3266\play-services-auth-9.4.0\AndroidManifest.xml:22:19-78
+79        <!--
+80Service handling Google Sign-In user revocation. For apps that do not integrate with
+81            Google Sign-In, this service will never be started.
+82        -->
+83        <service
+83-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\1195bebda59a0e622d6b09c9b35d3266\play-services-auth-9.4.0\AndroidManifest.xml:28:9-31:110
+84            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+84-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\1195bebda59a0e622d6b09c9b35d3266\play-services-auth-9.4.0\AndroidManifest.xml:29:13-58
+85            android:exported="true"
+85-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\1195bebda59a0e622d6b09c9b35d3266\play-services-auth-9.4.0\AndroidManifest.xml:30:13-36
+86            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+86-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\1195bebda59a0e622d6b09c9b35d3266\play-services-auth-9.4.0\AndroidManifest.xml:31:13-107
+87        <service
+87-->[com.google.firebase:firebase-crash:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\eacb7612260948126d2d4558f9fa6157\firebase-crash-9.4.0\AndroidManifest.xml:26:9-27:50
+88            android:name="com.google.firebase.crash.internal.service.FirebaseCrashReceiverService"
+88-->[com.google.firebase:firebase-crash:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\eacb7612260948126d2d4558f9fa6157\firebase-crash-9.4.0\AndroidManifest.xml:26:18-79
+89            android:process=":background_crash" />
+89-->[com.google.firebase:firebase-crash:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\eacb7612260948126d2d4558f9fa6157\firebase-crash-9.4.0\AndroidManifest.xml:27:13-48
+90        <service
+90-->[com.google.firebase:firebase-crash:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\eacb7612260948126d2d4558f9fa6157\firebase-crash-9.4.0\AndroidManifest.xml:29:9-30:50
+91            android:name="com.google.firebase.crash.internal.service.FirebaseCrashSenderService"
+91-->[com.google.firebase:firebase-crash:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\eacb7612260948126d2d4558f9fa6157\firebase-crash-9.4.0\AndroidManifest.xml:29:18-77
+92            android:process=":background_crash" />
+92-->[com.google.firebase:firebase-crash:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\eacb7612260948126d2d4558f9fa6157\firebase-crash-9.4.0\AndroidManifest.xml:30:13-48
+93
+94        <activity
+94-->[com.google.android.gms:play-services-base:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\4a3867a754f186a20b59680c5618e1c2\play-services-base-9.4.0\AndroidManifest.xml:20:9-22:45
+95            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+95-->[com.google.android.gms:play-services-base:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\4a3867a754f186a20b59680c5618e1c2\play-services-base-9.4.0\AndroidManifest.xml:20:19-85
+96            android:exported="false"
+96-->[com.google.android.gms:play-services-base:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\4a3867a754f186a20b59680c5618e1c2\play-services-base-9.4.0\AndroidManifest.xml:22:19-43
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+97-->[com.google.android.gms:play-services-base:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\4a3867a754f186a20b59680c5618e1c2\play-services-base-9.4.0\AndroidManifest.xml:21:19-78
+98        <!--
+99 FirebaseMessagingService performs security checks at runtime,
+100             no need for explicit permissions despite exported="true"
+101        -->
+102        <service
+102-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\b3e6620a6333f1ea3690fa6b73ff0b7e\firebase-messaging-9.4.0\AndroidManifest.xml:24:9-30:19
+103            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+103-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\b3e6620a6333f1ea3690fa6b73ff0b7e\firebase-messaging-9.4.0\AndroidManifest.xml:25:13-82
+104            android:exported="true" >
+104-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\b3e6620a6333f1ea3690fa6b73ff0b7e\firebase-messaging-9.4.0\AndroidManifest.xml:26:13-36
+105            <intent-filter android:priority="-500" >
+105-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\b3e6620a6333f1ea3690fa6b73ff0b7e\firebase-messaging-9.4.0\AndroidManifest.xml:27:13-29:29
+105-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\b3e6620a6333f1ea3690fa6b73ff0b7e\firebase-messaging-9.4.0\AndroidManifest.xml:27:28-51
+106                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+106-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\b3e6620a6333f1ea3690fa6b73ff0b7e\firebase-messaging-9.4.0\AndroidManifest.xml:28:17-78
+106-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\b3e6620a6333f1ea3690fa6b73ff0b7e\firebase-messaging-9.4.0\AndroidManifest.xml:28:25-75
+107            </intent-filter>
+108        </service>
+109        <service
+109-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\ce318f68f9a0fa6750910ceead038c08\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:25:9-27:42
+110            android:name="com.google.android.gms.tagmanager.TagManagerService"
+110-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\ce318f68f9a0fa6750910ceead038c08\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:25:18-84
+111            android:enabled="true"
+111-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\ce318f68f9a0fa6750910ceead038c08\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:27:17-39
+112            android:exported="false" />
+112-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\ce318f68f9a0fa6750910ceead038c08\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:26:17-41
+113
+114        <activity
+114-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\ce318f68f9a0fa6750910ceead038c08\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:28:9-37:20
+115            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+115-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\ce318f68f9a0fa6750910ceead038c08\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:29:13-87
+116            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+116-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\ce318f68f9a0fa6750910ceead038c08\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:30:13-37
+117            <intent-filter>
+117-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\ce318f68f9a0fa6750910ceead038c08\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:31:13-36:29
+118                <data android:scheme="tagmanager.c.com.parse.starter" />
+118-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\ce318f68f9a0fa6750910ceead038c08\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:32:17-72
+118-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\ce318f68f9a0fa6750910ceead038c08\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:32:23-69
+119
+120                <action android:name="android.intent.action.VIEW" />
+120-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\ce318f68f9a0fa6750910ceead038c08\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:33:17-69
+120-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\ce318f68f9a0fa6750910ceead038c08\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:33:25-66
+121
+122                <category android:name="android.intent.category.DEFAULT" />
+122-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\e7d4ac177044d1d8772299f8685bba69\play-services-appinvite-9.4.0\AndroidManifest.xml:27:17-75
+122-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\e7d4ac177044d1d8772299f8685bba69\play-services-appinvite-9.4.0\AndroidManifest.xml:27:27-73
+123                <category android:name="android.intent.category.BROWSABLE" />
+123-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\ce318f68f9a0fa6750910ceead038c08\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:35:17-77
+123-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\ce318f68f9a0fa6750910ceead038c08\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:35:27-75
+124            </intent-filter>
+125        </activity>
+126
+127        <receiver
+127-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\3b6ea38038ccda11ead1b926247ed562\firebase-analytics-9.4.0\AndroidManifest.xml:28:7-34:18
+128            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+128-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\3b6ea38038ccda11ead1b926247ed562\firebase-analytics-9.4.0\AndroidManifest.xml:29:11-83
+129            android:enabled="true" >
+129-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\3b6ea38038ccda11ead1b926247ed562\firebase-analytics-9.4.0\AndroidManifest.xml:30:11-33
+130            <intent-filter>
+130-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\3b6ea38038ccda11ead1b926247ed562\firebase-analytics-9.4.0\AndroidManifest.xml:31:9-33:25
+131                <action android:name="com.google.android.gms.measurement.UPLOAD" />
+131-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\3b6ea38038ccda11ead1b926247ed562\firebase-analytics-9.4.0\AndroidManifest.xml:32:11-77
+131-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\3b6ea38038ccda11ead1b926247ed562\firebase-analytics-9.4.0\AndroidManifest.xml:32:19-75
+132            </intent-filter>
+133        </receiver>
+134
+135        <service
+135-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\3b6ea38038ccda11ead1b926247ed562\firebase-analytics-9.4.0\AndroidManifest.xml:36:7-39:37
+136            android:name="com.google.android.gms.measurement.AppMeasurementService"
+136-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\3b6ea38038ccda11ead1b926247ed562\firebase-analytics-9.4.0\AndroidManifest.xml:37:11-82
+137            android:enabled="true"
+137-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\3b6ea38038ccda11ead1b926247ed562\firebase-analytics-9.4.0\AndroidManifest.xml:38:11-33
+138            android:exported="false" />
+138-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\3b6ea38038ccda11ead1b926247ed562\firebase-analytics-9.4.0\AndroidManifest.xml:39:11-35
+139
+140        <receiver
+140-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\010d668b4fbc28c04586765c0eacbbc9\firebase-iid-9.4.0\AndroidManifest.xml:32:9-41:20
+141            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+141-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\010d668b4fbc28c04586765c0eacbbc9\firebase-iid-9.4.0\AndroidManifest.xml:33:13-78
+142            android:exported="true"
+142-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\010d668b4fbc28c04586765c0eacbbc9\firebase-iid-9.4.0\AndroidManifest.xml:34:13-36
+143            android:permission="com.google.android.c2dm.permission.SEND" >
+143-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\010d668b4fbc28c04586765c0eacbbc9\firebase-iid-9.4.0\AndroidManifest.xml:35:13-73
+144            <intent-filter>
+144-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\010d668b4fbc28c04586765c0eacbbc9\firebase-iid-9.4.0\AndroidManifest.xml:36:13-40:29
+145                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+145-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\010d668b4fbc28c04586765c0eacbbc9\firebase-iid-9.4.0\AndroidManifest.xml:37:17-81
+145-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\010d668b4fbc28c04586765c0eacbbc9\firebase-iid-9.4.0\AndroidManifest.xml:37:25-78
+146                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+146-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\010d668b4fbc28c04586765c0eacbbc9\firebase-iid-9.4.0\AndroidManifest.xml:38:17-86
+146-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\010d668b4fbc28c04586765c0eacbbc9\firebase-iid-9.4.0\AndroidManifest.xml:38:25-83
+147
+148                <category android:name="com.parse.starter" />
+148-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\010d668b4fbc28c04586765c0eacbbc9\firebase-iid-9.4.0\AndroidManifest.xml:39:17-61
+148-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\010d668b4fbc28c04586765c0eacbbc9\firebase-iid-9.4.0\AndroidManifest.xml:39:27-58
+149            </intent-filter>
+150        </receiver>
+151        <!--
+152 Internal (not exported) receiver used by the app to start its own exported services
+153             without risk of being spoofed.
+154        -->
+155        <receiver
+155-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\010d668b4fbc28c04586765c0eacbbc9\firebase-iid-9.4.0\AndroidManifest.xml:45:9-47:40
+156            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+156-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\010d668b4fbc28c04586765c0eacbbc9\firebase-iid-9.4.0\AndroidManifest.xml:46:13-86
+157            android:exported="false" />
+157-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\010d668b4fbc28c04586765c0eacbbc9\firebase-iid-9.4.0\AndroidManifest.xml:47:13-37
+158        <!--
+159 FirebaseInstanceIdService performs security checks at runtime,
+160             no need for explicit permissions despite exported="true"
+161        -->
+162        <service
+162-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\010d668b4fbc28c04586765c0eacbbc9\firebase-iid-9.4.0\AndroidManifest.xml:51:9-57:19
+163            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+163-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\010d668b4fbc28c04586765c0eacbbc9\firebase-iid-9.4.0\AndroidManifest.xml:52:13-77
+164            android:exported="true" >
+164-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\010d668b4fbc28c04586765c0eacbbc9\firebase-iid-9.4.0\AndroidManifest.xml:53:13-36
+165            <intent-filter android:priority="-500" >
+165-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\010d668b4fbc28c04586765c0eacbbc9\firebase-iid-9.4.0\AndroidManifest.xml:54:13-56:29
+165-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\010d668b4fbc28c04586765c0eacbbc9\firebase-iid-9.4.0\AndroidManifest.xml:54:28-51
+166                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+166-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\010d668b4fbc28c04586765c0eacbbc9\firebase-iid-9.4.0\AndroidManifest.xml:55:17-80
+166-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\010d668b4fbc28c04586765c0eacbbc9\firebase-iid-9.4.0\AndroidManifest.xml:55:25-77
+167            </intent-filter>
+168        </service>
+169
+170        <provider
+170-->[com.google.firebase:firebase-common:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\42f521051f500d2f18c369323584f819\firebase-common-9.4.0\AndroidManifest.xml:7:9-11:39
+171            android:name="com.google.firebase.provider.FirebaseInitProvider"
+171-->[com.google.firebase:firebase-common:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\42f521051f500d2f18c369323584f819\firebase-common-9.4.0\AndroidManifest.xml:9:13-58
+172            android:authorities="com.parse.starter.firebaseinitprovider"
+172-->[com.google.firebase:firebase-common:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\42f521051f500d2f18c369323584f819\firebase-common-9.4.0\AndroidManifest.xml:8:13-72
+173            android:exported="false"
+173-->[com.google.firebase:firebase-common:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\42f521051f500d2f18c369323584f819\firebase-common-9.4.0\AndroidManifest.xml:10:13-37
+174            android:initOrder="100" />
+174-->[com.google.firebase:firebase-common:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\42f521051f500d2f18c369323584f819\firebase-common-9.4.0\AndroidManifest.xml:11:13-36
+175
+176        <meta-data
+176-->[com.google.android.gms:play-services-basement:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\722c061f78a2add57d46aa95ae065217\play-services-basement-9.4.0\AndroidManifest.xml:21:9-23:69
+177            android:name="com.google.android.gms.version"
+177-->[com.google.android.gms:play-services-basement:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\722c061f78a2add57d46aa95ae065217\play-services-basement-9.4.0\AndroidManifest.xml:22:13-58
+178            android:value="@integer/google_play_services_version" />
+178-->[com.google.android.gms:play-services-basement:9.4.0] C:\Users\sgurp\.gradle\caches\transforms-2\files-2.1\722c061f78a2add57d46aa95ae065217\play-services-basement-9.4.0\AndroidManifest.xml:23:13-66
+179    </application>
+180
+181</manifest>
